@@ -2,12 +2,24 @@
   <head>
     <title>Der Titel</title>
   </head>
+
   <body>
+
     <h1 id="lol">Hallo Welt</h1>
-    <script src="main.js"></script>
-    <button onclick="document.getElementById('Bild1').src='Pepe.jpg'">
+
+    <button onclick="document.getElementById('Bild1').src='Pepe.jpg'" >
       Pepe
     </button>
-    <img id="Bild1" src="NichtPepe.jpg">
+
+    <button onclick="document.getElementById('Bild1').src='NichtPepe.jpg'" >
+        Nicht Pepe
+    </button>
+
+    <img id="Bild1" src="NichtPepe.jpg" style="width:100px">
+
+    <button type="button" onclick="aFunction()">Konsolenausgabe</button>
+
+    <script src="main.js"></script>
+
   </body>
 </html>
